@@ -289,7 +289,7 @@ header .brand-name {
 }
 header .brand-name-subtext {
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
   font-weight: 300;
 }
 header img {
@@ -346,7 +346,7 @@ header .scroll-down .btn:hover {
   }
   header .brand-name-subtext {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 50px;
   }
   header img {
     max-width: 300px;
