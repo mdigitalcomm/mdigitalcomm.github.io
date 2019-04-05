@@ -617,11 +617,11 @@ aside.cta-quote span.quote {
 .portfolio-carousel {
   padding: 0;
   color: white;
-  background-color: #222222;
+
 }
 .portfolio-carousel .item {
   background-color: #222222;
-  background: no-repeat center center scroll;
+  background: no-repeat auto center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -693,7 +693,7 @@ aside.cta-quote span.quote {
     margin-top: 0;
   }
   .portfolio-carousel .item .project-details {
-    padding: 15% 0 0;
+    padding: 6em 0;
   }
   .portfolio-carousel .item .project-details img.client-logo {
     margin: 0 auto 25px 0;
