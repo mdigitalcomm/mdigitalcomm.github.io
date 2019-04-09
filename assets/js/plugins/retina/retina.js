@@ -12,7 +12,7 @@
     var root = (typeof exports === 'undefined' ? window : exports);
     var config = {
         // An option to choose a suffix for 2x images
-        retinaImageSuffix : '@2x',
+        retinaImageSuffix : '',
 
         // Ensure Content-Type is an image before trying to load @2x image
         // https://github.com/imulus/retinajs/pull/45)
@@ -75,7 +75,7 @@
 
     var regexMatch = /\.\w+$/;
     function suffixReplace (match) {
-        return config.retinaImageSuffix + match;
+        return match;
     }
 
     function RetinaImagePath(path, at_2x_path) {
